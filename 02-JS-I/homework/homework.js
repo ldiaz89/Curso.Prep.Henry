@@ -60,18 +60,18 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( x == y){
+  if ( x === y){
     return true;
   }else{
     return false;
   }
 }
 
-function tienenMismaLongitud(str1, str2) {
+function tienenMismaLongitud(var str1, var str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length == str2){
+  if (str1.length === str2.length){
     return true;
   }else{
     return false;
@@ -178,7 +178,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola " + nombre;
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
